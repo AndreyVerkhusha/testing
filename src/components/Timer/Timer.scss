@@ -1,0 +1,21 @@
+.timer {
+  &__time {
+    font-size: 14px;
+    padding: 6px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+
+    span:nth-child(2) {
+      margin: 0 3px;
+    }
+  }
+
+  &__left {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
